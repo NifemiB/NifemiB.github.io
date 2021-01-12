@@ -1,0 +1,426 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+h1{
+    height:40px;
+    background-color:  rgb(99,104,107);
+    padding-bottom: 135px;
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+   
+}
+#ob{
+    font-size:35px;
+    padding-top:25px;
+}    
+#pp{
+    color: white;
+    font-size:20px
+}    
+}
+#myvideo{
+object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+body {
+ background-color: rgb(32,32,35);
+font-family: 'Jura', sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    
+}
+.nav {
+  display:inline;
+  float: left;
+  display: block;
+  padding: 8px;
+    position: relative;
+    background-color: rgb(99,104,107);
+    margin-left: 8%;
+    margin-top: 30px;
+    transition:1s;
+
+  
+}
+
+a.nav:hover{
+    color:white;
+    background-color:;
+}
+
+.nat{
+    display: inline;
+  float: left;
+  display: block;
+  padding: 8px;
+    position: relative;
+    background-color: rgb(99,104,107);
+    padding-bottom: 100;
+    transition:1s;
+}
+.nat-1{
+    margin-left: 5%;
+}
+div#block1 {
+    background-color: cadetblue;
+    float:left;
+    width: 200px;
+    
+
+        
+}
+div#block2 {
+    background-color: cornflowerblue;
+    margin-left: 200px;
+   
+}
+div#blockcontainer{
+    border: 5px solid #000;
+    margin:10px;
+    padding:10px;
+    margi-top: 370px;
+    
+           
+}
+
+
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+
+  width: 210px;
+  padding: 10px;
+  height: 90px; /* Should be removed. Only for demonstration */
+    margin:10px; 
+    border:5px solid rgb(80,207,245) ;
+    text-align: center;
+    font-size: 48px;
+    padding-top: ;
+    position:absolute;
+    margin-top: 170px;
+    color:white;
+    font-family: 'Jura', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+}
+.columnp{
+    position:absolute;
+}
+.columnp-2{
+    margin-left:238px;
+}
+.columnp-3{
+    margin-left:476px;
+}
+.columnp-4{
+    margin-left: 714px;
+}
+.column-1{
+margin-left:;
+}
+
+.column-2{
+margin-left: 250px;
+font-size:35px;
+}
+.column-3{
+ margin-left: 485px;
+}
+.column-4{
+ margin-left: 725px;
+}
+.column:hover{
+    color:rgb(65,69,71);
+    cursor: pointer;
+    
+}
+.rowt{
+    padding-top:45px;
+    padding-left:17%;
+    position:relative;
+}
+
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 850px) {
+    .row {
+    padding-left:800px;
+  }
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    position: ;
+    
+        
+}
+.oo{
+
+}
+.boo{
+    float:right;
+    background-color: rgba(80,207,245,0.5);
+    margin-right: 4%;
+    margin-top:;
+    border:5px solid rgb(80,207,245);
+    width:210px;
+    height:90px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 48px;
+    position: fixed;
+    right:0px;
+    color:white;
+    bottom:0;
+    margin-bottom: 20px;
+    font-family: 'Jura', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+}
+.boo:hover{
+    color:rgb(65,69,71);
+    cursor: pointer;
+}
+
+
+.section{
+    background-image: image()
+}
+.line{
+    background-color: white;
+    width:90%;
+    height:1px;
+    margin-top: 578px;
+    margin-left: 90px;
+    position:absolute;
+   
+    
+}
+.space{
+    width:90%;
+    height:1px;
+    margin-top: 710px;
+    margin-left: 90px;
+    position:absolute;
+    margin-bottom: 100px;
+    
+}
+
+#myDIV,#myDIV2,#myDIV3,#myDIV4{
+    object-fit: cover;
+    position:fixed;
+    width:100%;
+    height:100%;
+    padding-top:;
+    background-color:rgba(0,0,0,0.8);
+    display: none;
+    top:0;
+    overflow:auto;
+   
+}
+#myDIV5{
+    object-fit: cover;
+    position:fixed;
+    width:100%;
+    height:100%;
+    padding-top:;
+    background-color:rgba(0,0,0,0.8);
+    display: none;
+    top:0;
+    overflow:auto;
+   
+}
+.holdp{
+    margin-top: %;
+    margin-left:90px;
+    margin-bottom: %;
+}
+.exit{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    
+}
+.exit:hover{
+    cursor: pointer;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+
+.galleto{
+    margin:10px 20px;
+}
+
+.galleto img{
+    transition:1s;
+    padding:15px;
+    width:px;
+    height:250px;
+}
+.galleto img:hover{
+    filter:grayscale(100%);
+    transform:scale(1.1);
+}
+
+
+
+/*.yuh{
+    background-image: url(screenshots/ATLit.png);
+    padding-bottom: 290px;
+    background-size: 100%
+    
+        
+}
+*/
+
+.rowabout{
+    position: relative;
+}
+.aboutstuff{
+    float: left;
+    position:absolute
+    
+}
+.stuff-1{
+margin-left: 100px;
+margin-top: 80px;
+}
+.stuff-2{
+    color:white;
+    white-space: nowrap;
+    padding-left:10px;
+    margin-top: 80px;
+    font-size:18px;
+    margin-left:500px
+}
+.ig{
+    color:white;
+    font-size: 20px;
+}
+.igp{
+    padding-top: 50px;
+}
+
+
