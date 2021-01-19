@@ -107,7 +107,7 @@ h1{
     padding-bottom: 135px;
     font-size: 20px;
     font-family: 'Jura', sans-serif;
-    width:1450px;
+    width:110%;
    
 }
 h2{
@@ -257,13 +257,21 @@ font-size:35px;
 }
 .rowt{
     padding-top:45px;
-    padding-left:235px;
-    position:relative;
+  margin-left:auto;
+    margin-right:auto;
+    width: 70%;
+   
+    
+    
+   
 }
 .rowl{
-    position:absolute;
+    position:absolut;
     padding-top:45px;
-    padding-left:235px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 70%;
+    
 }
 
 
@@ -311,11 +319,15 @@ a{
 }
 .line{
     background-color: white;
-    width:1250px;
+    width:87%;
     height:1px;
     margin-top: 578px;
-    margin-left: 90px;
-    position:absolute;
+    margin-left: ;
+    margin-left:auto;
+    margin-right:auto;
+    
+  
+
    
     
 }
@@ -325,14 +337,15 @@ a{
     height:1px;
     margin-top: 640px;
     margin-left: 90px;
-    position:absolute;
+
+
 }
 .space{
     width:90%;
     height:1px;
-    margin-top: 710px;
+    margin-top: 20px;
     margin-left: 90px;
-    position:absolute;
+    position:absolut;
     margin-bottom: 100px;
     
 }
@@ -466,40 +479,44 @@ margin-top: 80px;
         float:;
         margin:auto;
         position:relative;
-        margin-top:210px;
+        margin-top:400px;
         transition: 0s;
         margin-left:;
         display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-        width:240px;
+        width:400px;
+        font-size: 65px
         
         
         
     }
     .column-2{
-        margin-top:940px;
+        margin-top:1300px;
         transition:0s;
     
     }
     .column-3{
-        margin-top:940px;
+        margin-top:1300px;
     }
     .column-4{
-        margin-top:940px;
+        margin-top:1300px;
     }
     .rowl{
         padding-left: 0px;
         margin-left:0px;
         position:relative;
+        margin-left:auto;
+    margin-right:auto;
+    width: 70%;
     }
     .line{
-        margin-top: 700px;
+        margin-top: 900px;
         width:87%;
     }
     .space{
-        margin-top: 830px;
+        margin-top: 50px;
     }
     h1{
         width:110%;
@@ -515,7 +532,9 @@ margin-top: 80px;
         margin-top: 700px;
     }
     .ist1{
-        width:400px;
+        width:550px;
     }
   
 }
+
+
