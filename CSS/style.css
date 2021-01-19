@@ -487,7 +487,8 @@ margin-top: 80px;
   justify-content: center;
   align-items: center;
         width:400px;
-        font-size: 65px
+        font-size: 65px;
+	    transition:1s;
         
         
         
