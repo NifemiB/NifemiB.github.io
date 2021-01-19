@@ -283,7 +283,7 @@ a{
 .boo{
     float:right;
     background-color: rgba(80,207,245,0.5);
-    margin-right: 200px;
+    margin-right: 25px;
     margin-top:;
     border:5px solid rgb(80,207,245);
     width:240px;
@@ -444,44 +444,62 @@ margin-top: 80px;
 
 @media screen and (max-width: 1000px) {
     .rowt {
-    padding-left:0px;
-        margin-left: 0px;
+   margin-left: 0px;
+        padding-left: 0px;
+        position: absolute;
+        width: 100%;
   }
     .columnp{
-        float:left;
-        margin-left:34%;
+        float:;
+        margin:auto;
         position:relative;
         margin-top:20px;
-        
+        width:;
+        margin-left:;
+        display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+            
     }
     .column{
-        float:left;
-        margin-left:34%;
+        float:;
+        margin:auto;
         position:relative;
         margin-top:210px;
         transition: 0s;
+        margin-left:;
+        display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+        width:240px;
+        
+        
         
     }
     .column-2{
-        margin-top:480px;
+        margin-top:940px;
         transition:0s;
+    
     }
     .column-3{
-        margin-top:480px;
+        margin-top:940px;
     }
     .column-4{
-        margin-top:480px;
+        margin-top:940px;
     }
     .rowl{
         padding-left: 0px;
-        margin-left:15px;
+        margin-left:0px;
+        position:relative;
     }
     .line{
-        margin-top: 2400px;
-        width:70%;
+        margin-top: 700px;
+        width:87%;
     }
     .space{
-        margin-top: 30px;
+        margin-top: 830px;
     }
     h1{
         width:110%;
@@ -496,7 +514,8 @@ margin-top: 80px;
         width:70%;
         margin-top: 700px;
     }
-   
+    .ist1{
+        width:400px;
+    }
+  
 }
-
-
